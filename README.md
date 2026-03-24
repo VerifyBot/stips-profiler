@@ -2,7 +2,7 @@
 
 A modular OSINT tool that extracts, caches, and analyzes public Q&A data to build comprehensive psychological and demographic profiles.
 
-![DEMO](github/demo.mp4)
+https://www.youtube.com/watch?v=GjZr-MDL2OM
 
 
 ## About the Project
