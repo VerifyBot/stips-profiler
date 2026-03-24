@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    stdin_open: true   # Needed for interactive TUI and testing
+    tty: true          # Needed for interactive TUI and testing
+    env_file:
+      - .env
+    volumes:
+      # Mounts your entire local folder into the container.
+      # This allows you to run test_offline.py and test_live.py 
+      # and see code edits immediately without rebuilding.
+      - ./:/app
